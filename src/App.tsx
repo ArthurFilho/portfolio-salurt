@@ -25,29 +25,12 @@ export function App() {
           <button> Quero Conhecer </button>
         </ContainerHeader>
 
-        <ContainerAboutMe Variant="primary">
-
-          <img src={ThiagoPicture} alt="PhotoThiago" />
-          
-          <div>
-            <p> <strong>XX</strong> DESIGNER GRAFICO E PROGRAMADOR</p>
-            
-            <h4>Designer gráfico e desenvolvedor em, javasscript, python, c+, c++</h4>
-
-            <span>
-              Formado como designer gráfico aperfeiçoando suas <br />
-              partes de conhecimentos na aréa de programação. <br />
-              visando sempre aprender, como ensinar e por em pratica <br />
-              seus conhecimentos gerais da sua área fazendo o seu <br />
-              melhor, para seu sucesso e o sucesso do resto da equipre.
-            </span>
-          </div>
-
-        </ContainerAboutMe>
-
         <ContainerAboutMe Variant="secondary">
 
+        <img src={ArthurPicture} alt="PhotoArthur" />
+
           <div>
+
             <p> <strong>XX</strong> PROGRAMADOR FRONTEND</p>
             
             <h4> 
@@ -65,7 +48,25 @@ export function App() {
             </span>
           </div>
 
-          <img src={ArthurPicture} alt="PhotoArthur" />
+        </ContainerAboutMe>
+
+        <ContainerAboutMe Variant="primary">
+
+          <div>
+            <p> <strong>XX</strong> DESIGNER GRAFICO E PROGRAMADOR</p>
+            
+            <h4>Designer gráfico e desenvolvedor em, javasscript, python, c+, c++</h4>
+
+            <span>
+              Formado como designer gráfico aperfeiçoando suas <br />
+              partes de conhecimentos na aréa de programação. <br />
+              visando sempre aprender, como ensinar e por em pratica <br />
+              seus conhecimentos gerais da sua área fazendo o seu <br />
+              melhor, para seu sucesso e o sucesso do resto da equipre.
+            </span>
+          </div>
+
+          <img src={ThiagoPicture} alt="PhotoThiago" />
 
         </ContainerAboutMe>
 
