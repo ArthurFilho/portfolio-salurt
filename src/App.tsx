@@ -1,8 +1,10 @@
 import { GlobalStyle } from "./styles/global";
-import { ContainerAboutMe, ContainerAllPage, ContainerBanner, ContainerHeader } from "./styles/style";
+import { ContainerAboutMe, ContainerAboutUs, ContainerAllPage, ContainerBanner, ContainerHeader, ListLeft, ListRight } from "./styles/style";
 
 import ArthurPicture from "./assets/arthur.png"
 import ThiagoPicture from "./assets/thiago.png"
+
+import { Globe, Pencil, FileText } from "@phosphor-icons/react";
 
 export function App() {
 
@@ -54,7 +56,7 @@ export function App() {
             </h4>
 
             <span>
-              Com minhas habilidades em desenvolviemnto frontend, sou capaz de 
+              Com minhas habilidades em desenvolvimento frontend, sou capaz de 
               criar soluções inovadoras e proporcionar uma experiência única aos
               usuários. Além disso, meu comprometimento e dedicação constante me  
               permitem aprimorar minhas habilidades e buscar sempre a excelência em 
@@ -90,46 +92,59 @@ export function App() {
 
         </ContainerBanner>
 
-        <div>
+        <ContainerAboutUs>
+            <ul>
+              
+              <ListLeft>
 
-          <div>
-            <p>
-              Melhores sites lançados na rede da internet  <br />
-              nos melhores servidores recomendado por nós, <br />
-              com sua segurança e conforto.
-            </p>
-          </div>
+                <Globe size={64} color="cyan" />
 
-          <div>
-            <p>
-              Melhor designer de acordo com o seu gosto e <br />
-              de uma forma onde possa agradar você e o <br />
-              teu cliente onde todos ficam felizes... nos te <br />
-              damos qualidade de acesso e beleza de visual <br />
+                <p>
+                  Melhores sites lançados na rede da internet  <br />
+                  nos melhores servidores recomendado por nós, <br />
+                  com sua segurança e conforto.
+                </p>
+              </ListLeft>
 
-              <br />
+              <ListRight>
 
-              100% Original  <br />
+              <Pencil size={64} color="cyan" />
 
-              <br />
+                <p>
+                  Melhor designer de acordo com o seu gosto e <br />
+                  de uma forma onde possa agradar você e o <br />
+                  teu cliente onde todos ficam felizes... nos te <br />
+                  damos qualidade de acesso e beleza de visual <br />
 
-              Feito Originalmente por nos, somente por nós.
-            </p>
-          </div>
+                  <br />
 
-        </div>
+                  100% Original  <br />
 
-        <div>
-            <p>
-              Nossa inovação "Nascer" sabendo é uma limitação <br />
-              porque obriga a apenas repetir e nunca a cria, <br />
-              inovar, refazer, modificar. Quanto mais se nasce <br />
-              pronto, mais refém do que já se sabe e, portanto <br />
-              do passado; aprender sempre é o que mais impede <br />
-              que nos tornaremos prisioneiros de situações que, <br />
-              por serem inéditas, não saberiamos enfrentar.
-            </p>
-        </div>
+                  <br />
+
+                  Feito Originalmente por nos, somente por nós.
+                </p>
+              </ListRight>
+
+
+
+              <ListLeft>
+
+                <FileText size={64} color="cyan" />
+
+                <p>
+                  Nossa inovação "Nascer" sabendo é uma limitação <br />
+                  porque obriga a apenas repetir e nunca a cria, <br />
+                  inovar, refazer, modificar. Quanto mais se nasce <br />
+                  pronto, mais refém do que já se sabe e, portanto <br />
+                  do passado; aprender sempre é o que mais impede <br />
+                  que nos tornaremos prisioneiros de situações que, <br />
+                  por serem inéditas, não saberiamos enfrentar.
+                </p>
+              </ListLeft>
+
+            </ul>
+        </ContainerAboutUs>
 
       </ContainerAllPage>
 

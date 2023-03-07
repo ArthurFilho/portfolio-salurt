@@ -82,7 +82,7 @@ export const ContainerBanner = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #474747;
     div {
         display: flex;
         gap: 30px;
@@ -98,4 +98,44 @@ export const ContainerBanner = styled.div`
             }
         }
     }
+`
+
+export const ContainerAboutUs = styled.div`
+    display: flex;
+    height: 100%;
+    margin-top: 10rem;
+    align-items: center;
+    justify-items: center;
+
+        ul {
+            list-style: none;
+            
+            li {
+                margin-bottom: 10rem;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        ul::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            width: 5px;
+            height: 100%;
+            background-color: white;
+        }
+        
+`
+
+export const ListLeft = styled.li`
+    display: flex;
+    position: relative;
+    right: 200px;
+
+`
+
+export const ListRight = styled.li`
+    display: flex;
+    position: relative;
+    left: 225px;
 `
