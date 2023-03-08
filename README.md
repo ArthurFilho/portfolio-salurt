@@ -11,7 +11,7 @@
 - [REACT HOOKS]()
 
 
-<h1> <a href="https://salut-company.netlify.app//"> Clique aqui para ver o site em ação </a></h1>
+<h1> <a href="https://salurt-portfolio-main.netlify.app"> Clique aqui para ver o site em ação </a></h1>
 
 <h1> Descrição </h1>
 <p> Projeto feito com o intuito de ser um portfólio para um projeto que fiz com um amigo, onde faremos freelancers com trabalho dublo
