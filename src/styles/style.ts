@@ -88,8 +88,8 @@ export const ContainerBanner = styled.div`
     justify-content: center;
     background-color: #474747;
     div {
+        width: 100%;
         display: flex;
-        gap: 200px;
         align-items: center;
         justify-content: center;
         font-size: 2rem;
