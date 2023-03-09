@@ -27,6 +27,10 @@ export const ContainerHeader = styled.div`
     align-items: center;
     text-align: center;
 
+    img {
+        width: 100px;
+    }
+
     h2 {
         margin-bottom: 1rem;
         span {
@@ -85,7 +89,7 @@ export const ContainerBanner = styled.div`
     background-color: #474747;
     div {
         display: flex;
-        gap: 30px;
+        gap: 200px;
         align-items: center;
         justify-content: center;
         font-size: 2rem;
@@ -121,7 +125,7 @@ export const ContainerAboutUs = styled.div`
             position: absolute;
             left: 50%;
             width: 5px;
-            height: 100%;
+            height: 1000px;
             background-color: white;
         }
         

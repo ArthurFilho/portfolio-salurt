@@ -4,6 +4,8 @@ import { ContainerAboutMe, ContainerAboutUs, ContainerAllPage, ContainerBanner, 
 import ArthurPicture from "./assets/arthur.png"
 import ThiagoPicture from "./assets/thiago.png"
 
+import Logo from "./assets/logo.png"
+
 import { Globe, Pencil, FileText } from "@phosphor-icons/react";
 
 export function App() {
@@ -13,6 +15,9 @@ export function App() {
       <ContainerAllPage>
         
         <ContainerHeader>
+
+          <img src={Logo} />
+
           <h2>Ola, Somos a <span>Salurt</span></h2>
 
           <h1>DESIGNERS E PROGRAMADORES</h1>
