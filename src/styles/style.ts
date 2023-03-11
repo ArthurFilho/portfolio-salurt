@@ -47,6 +47,7 @@ export const ContainerHeader = styled.div`
     }
 
     button {
+        cursor: pointer;
         border: none;
         color: black;
         background-color: cyan;
@@ -82,17 +83,18 @@ export const ContainerAboutMe = styled.div<ColorProps>`
 
 export const ContainerBanner = styled.div`
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #474747;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     div {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         div {
             display: flex;
             flex-direction: column;
